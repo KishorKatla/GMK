@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>  	<title>GMK Software Solutions</title>
+  	<meta charset="utf-8">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Sandeep raju">
+    <script src="js/common.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery_002.js"></script>
+<style type="text/css">
+/* Carousel 1 */
+.inet-skin-hl .inet-container {
+    padding: 0.5em 0;
+}
+
+.inet-skin-hl .inet-container-horizontal {
+    width: 930px;
+    float: left;
+}
+
+.inet-skin-hl .inet-clip-horizontal {
+    width: 930px;
+    height: 80px;
+}
+
+.inet-skin-hl .inet-item {
+    width: 120px;
+    height: 80px;
+}
+
+.inet-skin-hl .inet-item a img {
+    width: 120px;
+    height: 80px;
+}
+.inet-skin-hl .inet-item-horizontal {
+    margin-right: 38px;
+}
+
+
+.inet-skin-hl .inet-item-placeholder {
+background-color: transparent;
+
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.inet-skin-hl .inet-next-horizontal {
+    display: none;
+}
+
+.inet-skin-hl .inet-next-horizontal:hover {
+}
+
+.inet-skin-hl .inet-next-horizontal:active {
+}
+
+.inet-skin-hl .inet-next-disabled-horizontal,
+.inet-skin-hl .inet-next-disabled-horizontal:hover,
+.inet-skin-hl .inet-next-disabled-horizontal:active {
+	display: none;
+}
+
+.inet-skin-hl .inet-prev-horizontal {
+    display: none;
+}
+
+.inet-skin-hl .inet-prev-horizontal:hover {
+}
+
+.inet-skin-hl .inet-prev-horizontal:active {
+}
+
+.inet-skin-hl .inet-prev-disabled-horizontal,
+.inet-skin-hl .inet-prev-disabled-horizontal:hover,
+.inet-skin-hl .inet-prev-disabled-horizontal:active {
+    display: none;
+}
+
+/* Carousel 2 */
+inet-skin-hl2 .inet-container {
+    -moz-border-radius: 10px;
+}
+
+inet-skin-hl2 .inet-container-horizontal {
+    width: 570px;
+    float: left;
+}
+
+inet-skin-hl2 .inet-clip-horizontal {
+    width:  570px;
+    height: 82px;
+}
+
+inet-skin-hl2 .inet-item {
+    width: 109px;
+    height: 80px;
+    background: none;
+    border-top: 1px solid #c5cdc9;
+    border-bottom: 1px solid #c5cdc9;
+    padding: 0;
+    text-align: center;
+}
+
+inet-skin-hl2 .inet-item-horizontal {
+    margin: 0 3px;
+}
+
+
+inet-skin-hl2 .inet-item-placeholder {
+background-color: transparent;
+
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+inet-skin-hl2 .inet-next-horizontal {
+    display: none;
+}
+
+inet-skin-hl2 .inet-next-horizontal:hover {
+}
+
+inet-skin-hl2 .inet-next-horizontal:active {
+}
+
+inet-skin-hl2 .inet-next-disabled-horizontal,
+inet-skin-hl2 .inet-next-disabled-horizontal:hover,
+inet-skin-hl2 .inet-next-disabled-horizontal:active {
+	display: none;
+}
+
+inet-skin-hl2 .inet-prev-horizontal {
+    display: none;
+}
+
+inet-skin-hl2 .inet-prev-horizontal:hover {
+}
+
+inet-skin-hl2 .inet-prev-horizontal:active {
+}
+
+inet-skin-hl2 .inet-prev-disabled-horizontal,
+inet-skin-hl2 .inet-prev-disabled-horizontal:hover,
+inet-skin-hl2 .inet-prev-disabled-horizontal:active {
+    display: none;
+}
+
+/* Carousel 3 */
+.inet-skin-hl3 .inet-container {
+    -moz-border-radius: 10px;
+}
+
+.inet-skin-hl3 .inet-container-horizontal {
+    width: 948px;
+    float: left;
+}
+
+.inet-skin-hl3 .inet-clip-horizontal {
+    width:  948px;
+    height: 168px;
+}
+
+.inet-skin-hl3 .inet-item {
+    width: 180px;
+    height: 168px;
+}
+
+.inet-skin-hl3 .inet-item-horizontal {
+    margin-right: 10px;
+}
+
+
+.inet-skin-hl3 .inet-item-placeholder {
+background-color: transparent;
+
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.inet-skin-hl3 .inet-next-horizontal {
+    display: none;
+}
+
+.inet-skin-hl3 .inet-next-horizontal:hover {
+}
+.inet-skin-hl3 .inet-next-horizontal:active {
+}
+.inet-skin-hl3 .inet-next-disabled-horizontal,
+.inet-skin-hl3 .inet-next-disabled-horizontal:hover,
+.inet-skin-hl3 .inet-next-disabled-horizontal:active {
+	display: none;
+}
+.inet-skin-hl3 .inet-prev-horizontal {
+    display: none;
+}
+.inet-skin-hl3 .inet-prev-horizontal:hover {
+}
+.inet-skin-hl3 .inet-prev-horizontal:active {
+}
+.inet-skin-hl3 .inet-prev-disabled-horizontal,
+.inet-skin-hl3 .inet-prev-disabled-horizontal:hover,
+.inet-skin-hl3 .inet-prev-disabled-horizontal:active {
+    display: none;
+}
+
+
+/**
+ * This <div> element is wrapped by inet around the list
+ * and has the classname "inet-container".
+ */
+.inet-container {
+    position: relative;
+}
+
+.inet-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.inet-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.inet-list li,
+.inet-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 75px;
+    height: 75px;
+}
+
+/**
+ * The buttons are added dynamically by inet before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "inet-next" and "inet-prev".
+ */
+.inet-next {
+    z-index: 3;
+    display: none;
+}
+
+.inet-prev {
+    z-index: 3;
+    display: none;
+}
+
+</style>
+</head>
+<body>
+
+
+                        <!-- Scroller START -->
+            <div class=" inet-skin-hl"><div style="display: block;" class="inet-container inet-container-horizontal">
+            
+                    <div class="inet-clip inet-clip-horizontal">
+                        <ul style="width: 1310px; left: 0px;" id="mycarousel" class="inet-list inet-list-horizontal">
+                        <!-- The content will be dynamically loaded in here -->
+                        </ul>
+                    </div>
+            </div>
+            </div>
+
+<!-- Scroller END -->
+
+
+<script type="text/javascript">
+
+var mycarousel_itemList = [
+    {url: "images/footer logos/1.png"},
+	
+    {url: "images/footer logos/2.png"},
+	
+    {url: "images/footer logos/3.png"},
+	
+    {url: "images/footer logos/4.png"},
+	
+    {url: "images/footer logos/5.png"},
+	
+    {url: "images/footer logos/6.png"},
+	
+    {url: "images/footer logos/7.png"},
+	
+    {url: "images/footer logos/8.png"},
+	
+    {url: "images/footer logos/9.png"},
+	
+    {url: "images/footer logos/10.png"},
+	
+    {url: "images/footer logos/11.png"},
+	
+    {url: "images/footer logos/12.png"},
+	
+    {url: "images/footer logos/13.png"},
+	
+    {url: "images/footer logos/14.png"}
+		
+];
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').inet({
+	    	auto: 4,
+	    	scroll: 1,
+	    	animation:800,
+        wrap: 'circular',
+        itemVisibleInCallback: {onBeforeAnimation: mycarousel_itemVisibleInCallback},
+        itemVisibleOutCallback: {onAfterAnimation: mycarousel_itemVisibleOutCallback}
+    });
+});
+
+</script>
+        
+ 		    
+</body>
+
+ </html>
